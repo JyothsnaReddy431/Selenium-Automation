@@ -1,37 +1,208 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-28T16:46:08 IST" name="Default suite" finished-at="2022-12-28T16:46:13 IST" duration-ms="5128">
+  <suite started-at="2023-01-21T19:02:56 IST" name="Test Automation suite" finished-at="2023-01-21T19:03:29 IST" duration-ms="33452">
     <groups>
+      <group name="Test">
+        <method signature="GoogleTest.test1()[pri:4, instance:com.BasicTestNG.GoogleTest@3270d194]" name="test1" class="com.BasicTestNG.GoogleTest"/>
+        <method signature="GoogleTest.test2()[pri:5, instance:com.BasicTestNG.GoogleTest@3270d194]" name="test2" class="com.BasicTestNG.GoogleTest"/>
+        <method signature="GoogleTest.test3()[pri:6, instance:com.BasicTestNG.GoogleTest@3270d194]" name="test3" class="com.BasicTestNG.GoogleTest"/>
+      </group> <!-- Test -->
+      <group name="Links">
+        <method signature="GoogleTest.VerifyGmailLink()[pri:3, instance:com.BasicTestNG.GoogleTest@3270d194]" name="VerifyGmailLink" class="com.BasicTestNG.GoogleTest"/>
+      </group> <!-- Links -->
+      <group name="Title">
+        <method signature="GoogleTest.googleTitle()[pri:1, instance:com.BasicTestNG.GoogleTest@3270d194]" name="googleTitle" class="com.BasicTestNG.GoogleTest"/>
+      </group> <!-- Title -->
+      <group name="Logo">
+        <method signature="GoogleTest.googlogo()[pri:2, instance:com.BasicTestNG.GoogleTest@3270d194]" name="googlogo" class="com.BasicTestNG.GoogleTest"/>
+      </group> <!-- Logo -->
     </groups>
-    <test started-at="2022-12-28T16:46:08 IST" name="Default test" finished-at="2022-12-28T16:46:13 IST" duration-ms="5128">
-      <class name="SeleniumConcepts.ExtentReportswithTestNg">
-        <test-method is-config="true" signature="setup()[pri:0, instance:SeleniumConcepts.ExtentReportswithTestNg@76505305]" started-at="2022-12-28T16:46:07 IST" name="setup" finished-at="2022-12-28T16:46:08 IST" duration-ms="179" status="PASS">
+    <test started-at="2023-01-21T19:02:56 IST" name="Test1" finished-at="2023-01-21T19:03:29 IST" duration-ms="33452">
+      <class name="com.BasicTestNG.TestNGclass">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.BasicTestNG.TestNGclass@408d971b]" started-at="2023-01-21T19:02:56 IST" name="Setup" finished-at="2023-01-21T19:02:56 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method is-config="true" signature="lounchBrowser()[pri:0, instance:com.BasicTestNG.TestNGclass@408d971b]" started-at="2023-01-21T19:02:56 IST" name="lounchBrowser" finished-at="2023-01-21T19:02:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lounchBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.BasicTestNG.TestNGclass@408d971b]" started-at="2023-01-21T19:03:25 IST" name="login" finished-at="2023-01-21T19:03:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="enterURl()[pri:0, instance:com.BasicTestNG.TestNGclass@408d971b]" started-at="2023-01-21T19:03:25 IST" name="enterURl" finished-at="2023-01-21T19:03:25 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterURl -->
+        <test-method signature="googletitleTest()[pri:1, instance:com.BasicTestNG.TestNGclass@408d971b]" started-at="2023-01-21T19:03:25 IST" name="googletitleTest" finished-at="2023-01-21T19:03:25 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googletitleTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.BasicTestNG.TestNGclass@408d971b]" started-at="2023-01-21T19:03:25 IST" name="logout" finished-at="2023-01-21T19:03:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="enterURl()[pri:0, instance:com.BasicTestNG.TestNGclass@408d971b]" started-at="2023-01-21T19:03:25 IST" name="enterURl" finished-at="2023-01-21T19:03:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterURl -->
+        <test-method signature="SearchText()[pri:2, instance:com.BasicTestNG.TestNGclass@408d971b]" started-at="2023-01-21T19:03:25 IST" name="SearchText" finished-at="2023-01-21T19:03:25 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchText -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.BasicTestNG.TestNGclass@408d971b]" started-at="2023-01-21T19:03:25 IST" name="logout" finished-at="2023-01-21T19:03:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="enterURl()[pri:0, instance:com.BasicTestNG.TestNGclass@408d971b]" started-at="2023-01-21T19:03:25 IST" name="enterURl" finished-at="2023-01-21T19:03:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterURl -->
+        <test-method signature="googleLogo()[pri:3, instance:com.BasicTestNG.TestNGclass@408d971b]" started-at="2023-01-21T19:03:25 IST" name="googleLogo" finished-at="2023-01-21T19:03:25 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleLogo -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.BasicTestNG.TestNGclass@408d971b]" started-at="2023-01-21T19:03:25 IST" name="logout" finished-at="2023-01-21T19:03:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.BasicTestNG.TestNGclass@408d971b]" started-at="2023-01-21T19:03:25 IST" name="closebrowser" finished-at="2023-01-21T19:03:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="DeleteAllcookies()[pri:0, instance:com.BasicTestNG.TestNGclass@408d971b]" started-at="2023-01-21T19:03:29 IST" name="DeleteAllcookies" finished-at="2023-01-21T19:03:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteAllcookies -->
+      </class> <!-- com.BasicTestNG.TestNGclass -->
+      <class name="com.prameters.parameterTest">
+        <test-method signature="ParameterTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.prameters.parameterTest@6c6cb480]" started-at="2023-01-21T19:03:25 IST" name="ParameterTest" finished-at="2023-01-21T19:03:29 IST" duration-ms="3699" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Qa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.facebook.com/login]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ajyothsna431@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[janureddy431]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ParameterTest -->
+      </class> <!-- com.prameters.parameterTest -->
+      <class name="com.BasicTestNG.GoogleTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.BasicTestNG.GoogleTest@3270d194]" started-at="2023-01-21T19:02:56 IST" name="setup" finished-at="2023-01-21T19:03:01 IST" duration-ms="5247" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="SetupTest()[pri:0, instance:SeleniumConcepts.ExtentReportswithTestNg@76505305]" started-at="2022-12-28T16:46:08 IST" name="SetupTest" finished-at="2022-12-28T16:46:10 IST" duration-ms="2401" status="PASS">
+        <test-method signature="googleTitle()[pri:1, instance:com.BasicTestNG.GoogleTest@3270d194]" started-at="2023-01-21T19:03:01 IST" name="googleTitle" finished-at="2023-01-21T19:03:01 IST" duration-ms="26" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SetupTest -->
-        <test-method signature="test1()[pri:0, instance:SeleniumConcepts.ExtentReportswithTestNg@76505305]" started-at="2022-12-28T16:46:10 IST" name="test1" finished-at="2022-12-28T16:46:11 IST" duration-ms="1325" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method signature="test2()[pri:0, instance:SeleniumConcepts.ExtentReportswithTestNg@76505305]" started-at="2022-12-28T16:46:11 IST" name="test2" finished-at="2022-12-28T16:46:11 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:SeleniumConcepts.ExtentReportswithTestNg@76505305]" started-at="2022-12-28T16:46:11 IST" name="tearDownTest" finished-at="2022-12-28T16:46:13 IST" duration-ms="1354" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumConcepts.ExtentReportswithTestNg@76505305]" started-at="2022-12-28T16:46:13 IST" name="tearDown" finished-at="2022-12-28T16:46:13 IST" duration-ms="267" status="PASS">
+        </test-method> <!-- googleTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.BasicTestNG.GoogleTest@3270d194]" started-at="2023-01-21T19:03:01 IST" name="tearDown" finished-at="2023-01-21T19:03:02 IST" duration-ms="899" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- SeleniumConcepts.ExtentReportswithTestNg -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.BasicTestNG.GoogleTest@3270d194]" started-at="2023-01-21T19:03:02 IST" name="setup" finished-at="2023-01-21T19:03:06 IST" duration-ms="3970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="googlogo()[pri:2, instance:com.BasicTestNG.GoogleTest@3270d194]" started-at="2023-01-21T19:03:06 IST" name="googlogo" finished-at="2023-01-21T19:03:06 IST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googlogo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.BasicTestNG.GoogleTest@3270d194]" started-at="2023-01-21T19:03:06 IST" name="tearDown" finished-at="2023-01-21T19:03:07 IST" duration-ms="832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.BasicTestNG.GoogleTest@3270d194]" started-at="2023-01-21T19:03:07 IST" name="setup" finished-at="2023-01-21T19:03:11 IST" duration-ms="3921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyGmailLink()[pri:3, instance:com.BasicTestNG.GoogleTest@3270d194]" started-at="2023-01-21T19:03:11 IST" name="VerifyGmailLink" finished-at="2023-01-21T19:03:11 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyGmailLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.BasicTestNG.GoogleTest@3270d194]" started-at="2023-01-21T19:03:11 IST" name="tearDown" finished-at="2023-01-21T19:03:12 IST" duration-ms="828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.BasicTestNG.GoogleTest@3270d194]" started-at="2023-01-21T19:03:12 IST" name="setup" finished-at="2023-01-21T19:03:15 IST" duration-ms="3441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test1()[pri:4, instance:com.BasicTestNG.GoogleTest@3270d194]" started-at="2023-01-21T19:03:15 IST" name="test1" finished-at="2023-01-21T19:03:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.BasicTestNG.GoogleTest@3270d194]" started-at="2023-01-21T19:03:15 IST" name="tearDown" finished-at="2023-01-21T19:03:16 IST" duration-ms="866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.BasicTestNG.GoogleTest@3270d194]" started-at="2023-01-21T19:03:16 IST" name="setup" finished-at="2023-01-21T19:03:20 IST" duration-ms="3948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test2()[pri:5, instance:com.BasicTestNG.GoogleTest@3270d194]" started-at="2023-01-21T19:03:20 IST" name="test2" finished-at="2023-01-21T19:03:20 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.BasicTestNG.GoogleTest@3270d194]" started-at="2023-01-21T19:03:20 IST" name="tearDown" finished-at="2023-01-21T19:03:21 IST" duration-ms="839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.BasicTestNG.GoogleTest@3270d194]" started-at="2023-01-21T19:03:21 IST" name="setup" finished-at="2023-01-21T19:03:24 IST" duration-ms="3757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test3()[pri:6, instance:com.BasicTestNG.GoogleTest@3270d194]" started-at="2023-01-21T19:03:24 IST" name="test3" finished-at="2023-01-21T19:03:24 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.BasicTestNG.GoogleTest@3270d194]" started-at="2023-01-21T19:03:24 IST" name="tearDown" finished-at="2023-01-21T19:03:25 IST" duration-ms="891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.BasicTestNG.GoogleTest -->
+      <class name="com.BasicTestNG.TestNGFeature">
+        <test-method signature="LoginPage()[pri:0, instance:com.BasicTestNG.TestNGFeature@128d2484]" started-at="2023-01-21T19:02:56 IST" name="LoginPage" finished-at="2023-01-21T19:02:56 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPage -->
+        <test-method signature="HomePage()[pri:0, instance:com.BasicTestNG.TestNGFeature@128d2484]" started-at="2023-01-21T19:02:56 IST" name="HomePage" finished-at="2023-01-21T19:02:56 IST" depends-on-methods="com.BasicTestNG.TestNGFeature.LoginPage" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method signature="SearchPage()[pri:0, instance:com.BasicTestNG.TestNGFeature@128d2484]" started-at="2023-01-21T19:02:56 IST" name="SearchPage" finished-at="2023-01-21T19:02:56 IST" depends-on-methods="com.BasicTestNG.TestNGFeature.LoginPage" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchPage -->
+        <test-method signature="registrationPage()[pri:0, instance:com.BasicTestNG.TestNGFeature@128d2484]" started-at="2023-01-21T19:02:56 IST" name="registrationPage" finished-at="2023-01-21T19:02:56 IST" depends-on-methods="com.BasicTestNG.TestNGFeature.LoginPage" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationPage -->
+      </class> <!-- com.BasicTestNG.TestNGFeature -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Test Automation suite -->
 </testng-results>
